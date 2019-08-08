@@ -1,21 +1,310 @@
 <!doctype html>
 <html lang="ja">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="./css/style.css">
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <p>This is tucca's Portfolio Site</p>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  </body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./css/style.css">
+  <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/sal.css">
+  <title>Tucca's Portfolio</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <header class="header">
+          <nav class="nav-menu">
+            <ul class="nav">
+              <li class="nav-item"><a href="" class="nav-link">TOP</a></li>
+              <li class="nav-item"><a href="#works" class="nav-link">WORKS</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+  </div>
+  <section class="jumbotron hero">
+    <div class="container">
+      <h1 class="hero-title">Tucca's Portfolio</h1>
+
+
+    </div>
+
+  </section>
+  <section id="works" class="section-top">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="section-top-title">WORKS</h2>
+        </div>
+      </div>
+      <div class="row works-wrapper">
+        <div class="col-4">
+          <div class="card">
+            <img src="images/examin.png" alt="" class="bd-placeholder-img card-img-top" width="100%" height="180">
+            <div class="card-body">
+              <h5 class="card-title">RAND Study v1.0</h5>
+              <p class="card-text">フレームワークを使わずPHPのみで作ったWebサービスです。択一問題・４択問題を登録し、ランダム出題・回答できるクイズアプリです。
+              </p>
+              <a href="http://3.114.143.203/examin/" class="btn btn-primary">詳細を見る</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="images/GotoBedBaby.png" alt="" class="bd-placeholder-img card-img-top" width="100%" height="180">
+            <div class="card-body">
+              <h5 class="card-title">おやすみベイビー</h5>
+              <p class="card-text">オブジェクト指向で実装したシンプルなゲームです。
+              </p>
+              <a href="https://gotobedbaby.herokuapp.com/" class="btn btn-primary">ゲームで遊ぶ</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card">
+            <img src="images/trace.png" alt="" class="bd-placeholder-img card-img-top" width="100%" height="180">
+            <div class="card-body">
+              <h5 class="card-title">webページ模写</h5>
+              <p class="card-text">HTML・CSSの学習のためWebページの模写を行いました。改善ポイントを考え、アレンジもしています。
+              </p>
+              <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row works-wrapper">
+        <div class="col-4">
+          <div class="card">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
+              <title>Placeholder</title>
+              <rect fill="#868e96" width="100%" height="100%" /><text fill="#dee2e6" dy=".3em" x="25%" y="50%">
+                Now Deveropment...</text>
+            </svg>
+            <div class="card-body">
+              <h5 class="card-title">RAND Study v2.0(開発中)</h5>
+              <p class="card-text">Laravel+Vue,jsで製作中です。現在は制作メモを更新しながら開発しています。
+              </p>
+              <a href="#" class="btn btn-primary">制作メモを見る</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="images/todo_jquery.png" alt="" class="bd-placeholder-img card-img-top" width="100%" height="180">
+            <div class="card-body">
+              <h5 class="card-title">To Do List</h5>
+              <p class="card-text">jQuery, backbone.js, React.js, Vue.js でそれぞれタスク管理アプリを作りjsフレームワークの理解を深めました。
+              </p>
+              <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
+              <title>Placeholder</title>
+              <rect fill="#868e96" width="100%" height="100%" /><text fill="#dee2e6" dy=".3em" x="50%" y="50%">Image
+                cap</text>
+            </svg> -->
+            <img src="images/wordpress_img.png" alt="" class="bd-placeholder-img card-img-top" width="100%"
+              height="180">
+            <div class="card-body">
+              <h5 class="card-title">WordPressテーマ</h5>
+              <p class="card-text">エンジニアポートフォリオサイト向けの自作WordPressテーマを作成しました。
+              </p>
+              <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="section-top">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="section-top-title">MY SKILLS</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3 class="skills-title">Languages</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-8 skills-wrapper">
+          <i class="devicons devicons-html5 icon-size-l skills-icon js-skills-html"></i>
+          <i class="devicons devicons-css3 icon-size-l skills-icon js-skills"></i>
+          <i class="devicons devicons-javascript icon-size-l skills-icon js-skills"></i>
+          <i class="devicons devicons-php icon-size-l skills-icon js-skills"></i>
+        </div>
+        <div class="col-2">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
+          <div class="skills-explain">
+            <p class="skills-explain-default js-skills-explain">アイコンにカーソルを載せると説明が表示されます</p>
+            <p class="skills-explain-html hide js-skills-explain">HTMLができます</p>
+            <p class="skills-explain-css hide js-skills-explain">CSSができます</p>
+            <p class="skills-explain-js hide js-skills-explain">JavaScriptができます</p>
+            <p class="skills-explain-php hide js-skills-explain">PHPができます</p>
+          </div>
+          <script>
+            $('.js-skills-html').hover(function () {
+              $('.skills-explain-default').toggleClass('hide');
+              $('.skills-explain-html').toggleClass('hide');
+            }, function () {
+              $('.skills-explain-default').toggleClass('hide');
+              $('.skills-explain-html').toggleClass('hide');
+            })
+          </script>
+        </div>
+        <div class="col-2">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3 class="skills-title">Tools with experience</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-8 skills-wrapper">
+          <i class="devicons devicons-git icon-size-l skills-icon"></i>
+          <i class="devicons devicons-github_badge icon-size-l skills-icon"></i>
+          <i class="devicons devicons-sass icon-size-l skills-icon"></i>
+          <i class="devicons devicons-jquery icon-size-l skills-icon"></i>
+          <i class="fab fa-vuejs icon-size-l skills-icon"></i>
+          <i class="fab fa-react icon-size-l skills-icon"></i>
+          <i class="devicons devicons-laravel icon-size-l skills-icon"></i>
+          <i class="devicons devicons-npm icon-size-l skills-icon"></i>
+          <i class="devicons devicons-gulp icon-size-l skills-icon"></i>
+          <i class="devicons devicons-composer icon-size-l skills-icon"></i>
+          <i class="devicons devicons-wordpress icon-size-l skills-icon"></i>
+          <i class="devicons devicons-visualstudio icon-size-l skills-icon"></i>
+
+        </div>
+        <div class="col-2">
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="about" class="section-top">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="section-top-title">ABOUT ME</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 pr-5">
+          <img src="./images/tucca.png" alt="tuccaプロフィール画像" class="about-image">
+        </div>
+        <div class="col-8">
+          <p>
+            Tucca
+          </p>
+          <p>
+            宮城県仙台市在住・30歳<br>
+            大学院修了後、化学メーカー研究開発・プロセスエンジニアとして６年間勤務。<br>
+          </p>
+          <p>
+            2019年4月〜、漠然とした憧れからプログラミングを始めました。<br>
+            作りたいWebサービスがあり、Web系言語から習得をはじめました。<br>
+          </p>
+          <p>
+            生後3ヶ月の赤ちゃんを育てながら、ゼロから3ヶ月でCRUD機能を網羅したWebアプリを開発。<br>
+            キャッチアップの速さには自信があります。<br>
+            現在は言語仕様やサービス開発、各種フレームワークに加えて、セキュリティ面や保守性の高いコードについても学習しています。
+          </p>
+          <p>
+
+          </p>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-top">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="section-top-title">CONTACT</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="contact-wrapper">
+            <p>2日以内(土日除く)に返信いたします</p>
+            <a href="https://twitter.com/tuccaprog" class="contact-icon"><i
+                class="fab fa-twitter-square icon-size-m"></i></a>
+            <a href="" class="contact-icon"><i class="fas fa-envelope-square icon-size-m"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <footer class="footer">
+          <p>Copyright © Tucca. All Rights Reserved</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col">
+
+      </div>
+    </div>
+  </div> -->
+  <!-- Optional JavaScript -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./js/sal.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script>
+    // $('.collapse').on('show.bs.collapse', function () {
+    //   // preventDefault();
+    //   $(this).siblings().collapse('hide');
+    //   // $(this).collapse('show');
+    // })
+  </script>
+</body>
