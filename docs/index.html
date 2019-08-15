@@ -4,7 +4,7 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="./css/style.css">
   <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
@@ -19,12 +19,17 @@
     <div class="row">
       <div class="col">
         <header class="header">
-          <nav class="nav-menu">
+          <div class="menu-trigger js-toggle-sp-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav class="nav-menu js-toggle-sp-menu-target">
             <ul class="nav">
               <li class="nav-item"><a href="" class="nav-link">TOP</a></li>
               <li class="nav-item"><a href="#works" class="nav-link">WORKS</a></li>
-              <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
               <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
               <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
             </ul>
           </nav>
@@ -48,43 +53,45 @@
         </div>
       </div>
       <div class="row works-wrapper">
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="card">
             <img src="images/examin.png" alt="" class="bd-placeholder-img card-img-top" width="100%" height="180">
             <div class="card-body">
-              <h5 class="card-title">RAND Study v1.0</h5>
-              <p class="card-text">フレームワークを使わずPHPのみで作ったWebサービスです。択一問題・４択問題を登録し、ランダム出題・回答できるクイズアプリです。
+              <h5 class="card-title">RandQ β </h5>
+              <p class="card-text">フレームワークを使わずPHPのみで作ったWebサービスです。択一問題・４択問題を登録し、ランダム出題・回答できるクイズアプリです。<br>
+                制作期間：3週間(約80時間)
               </p>
-              <a href="http://3.114.143.203/examin/" class="btn btn-primary">詳細を見る</a>
+              <a href="http://3.114.143.203/examin/" class="btn btn-primary" target="_blank">詳細を見る</a>
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="card">
             <img src="images/GotoBedBaby.png" alt="" class="bd-placeholder-img card-img-top" width="100%" height="180">
             <div class="card-body">
               <h5 class="card-title">おやすみベイビー</h5>
-              <p class="card-text">オブジェクト指向で実装したシンプルなゲームです。
+              <p class="card-text">オブジェクト指向で実装したシンプルなゲームです。<br>
+                制作期間：1週間(約20時間)
               </p>
-              <a href="https://gotobedbaby.herokuapp.com/" class="btn btn-primary">ゲームで遊ぶ</a>
+              <a href="https://gotobedbaby.herokuapp.com/" class="btn btn-primary" target="_blank">ゲームで遊ぶ</a>
             </div>
           </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="card">
             <img src="images/trace.png" alt="" class="bd-placeholder-img card-img-top" width="100%" height="180">
             <div class="card-body">
               <h5 class="card-title">webページ模写</h5>
               <p class="card-text">HTML・CSSの学習のためWebページの模写を行いました。改善ポイントを考え、アレンジもしています。
               </p>
-              <a href="#" class="btn btn-primary">詳細を見る</a>
+              <a href="#" class="btn btn-secondary disabled" target="_blank">詳細準備中</a>
             </div>
           </div>
         </div>
       </div>
       <div class="row works-wrapper">
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="card">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
@@ -93,25 +100,25 @@
                 Now Deveropment...</text>
             </svg>
             <div class="card-body">
-              <h5 class="card-title">RAND Study v2.0(開発中)</h5>
+              <h5 class="card-title">RandQ v1.0(開発中)</h5>
               <p class="card-text">Laravel+Vue,jsで製作中です。現在は制作メモを更新しながら開発しています。
               </p>
-              <a href="#" class="btn btn-primary">制作メモを見る</a>
+              <a href="#" class="btn btn-secondary disabled" target="_blank">制作中</a>
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="card">
             <img src="images/todo_jquery.png" alt="" class="bd-placeholder-img card-img-top" width="100%" height="180">
             <div class="card-body">
               <h5 class="card-title">To Do List</h5>
               <p class="card-text">jQuery, backbone.js, React.js, Vue.js でそれぞれタスク管理アプリを作りjsフレームワークの理解を深めました。
               </p>
-              <a href="#" class="btn btn-primary">詳細を見る</a>
+              <a href="#" class="btn btn-secondary disabled" target="_blank">詳細準備中</a>
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="card">
             <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
@@ -123,9 +130,10 @@
               height="180">
             <div class="card-body">
               <h5 class="card-title">WordPressテーマ</h5>
-              <p class="card-text">エンジニアポートフォリオサイト向けの自作WordPressテーマを作成しました。
+              <p class="card-text">エンジニアのポートフォリオサイト向けのWordPressテーマを作成しました。<br>
+                制作期間：6日
               </p>
-              <a href="#" class="btn btn-primary">詳細を見る</a>
+              <a href="#" class="btn btn-secondary disabled" target="_blank">詳細準備中</a>
             </div>
           </div>
         </div>
@@ -133,23 +141,48 @@
       </div>
     </div>
   </section>
+  <section id="about" class="section-top">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="section-top-title">ABOUT ME</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 pr-5 about-image-wrapper">
+          <img src="./images/tucca.png" alt="tuccaプロフィール画像" class="about-image">
+        </div>
+        <div class="col-sm-8">
+          <p>
+            Tucca
+          </p>
+          <p>
+            1988年、岩手県生まれ<br>
+            大学院修了後、研究開発/プロセスエンジニアとして化学メーカーに６年間勤務。<br>
+            2019年現在、宮城県仙台市在住。
+          </p>
+          <p>
+            未経験から3ヶ月でCRUD機能を網羅したWebアプリを開発。<br>
+            キャッチアップはそこそこ速い方だと思います。<br>
+            現在はLaravel、Vue.jsなどの各種フレームワークに加え、セキュリティ面や保守性を意識して学習を深めながら、サービス開発を続けています。
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
   <section id="skills" class="section-top">
     <div class="container">
       <div class="row">
         <div class="col">
-          <h2 class="section-top-title">MY SKILLS</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h3 class="skills-title">Languages</h3>
+          <h2 class="section-top-title">SKILLS</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-2">
 
         </div>
-        <div class="col-8 skills-wrapper">
+        <div class="col-sm-8 skills-wrapper">
           <i class="devicons devicons-html5 icon-size-l skills-icon js-skills-html"></i>
           <i class="devicons devicons-css3 icon-size-l skills-icon js-skills"></i>
           <i class="devicons devicons-javascript icon-size-l skills-icon js-skills"></i>
@@ -161,91 +194,58 @@
       </div>
       <div class="row">
         <div class="col-2">
-        </div>
-        <div class="col-8">
-          <div class="skills-explain">
-            <p class="skills-explain-default js-skills-explain">アイコンにカーソルを載せると説明が表示されます</p>
-            <p class="skills-explain-html hide js-skills-explain">HTMLができます</p>
-            <p class="skills-explain-css hide js-skills-explain">CSSができます</p>
-            <p class="skills-explain-js hide js-skills-explain">JavaScriptができます</p>
-            <p class="skills-explain-php hide js-skills-explain">PHPができます</p>
-          </div>
-          <script>
-            $('.js-skills-html').hover(function () {
-              $('.skills-explain-default').toggleClass('hide');
-              $('.skills-explain-html').toggleClass('hide');
-            }, function () {
-              $('.skills-explain-default').toggleClass('hide');
-              $('.skills-explain-html').toggleClass('hide');
-            })
-          </script>
-        </div>
-        <div class="col-2">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h3 class="skills-title">Tools with experience</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-2">
 
         </div>
-        <div class="col-8 skills-wrapper">
-          <i class="devicons devicons-git icon-size-l skills-icon"></i>
-          <i class="devicons devicons-github_badge icon-size-l skills-icon"></i>
+        <div class="col-sm-8 skills-wrapper">
           <i class="devicons devicons-sass icon-size-l skills-icon"></i>
           <i class="devicons devicons-jquery icon-size-l skills-icon"></i>
           <i class="fab fa-vuejs icon-size-l skills-icon"></i>
           <i class="fab fa-react icon-size-l skills-icon"></i>
           <i class="devicons devicons-laravel icon-size-l skills-icon"></i>
-          <i class="devicons devicons-npm icon-size-l skills-icon"></i>
-          <i class="devicons devicons-gulp icon-size-l skills-icon"></i>
-          <i class="devicons devicons-composer icon-size-l skills-icon"></i>
           <i class="devicons devicons-wordpress icon-size-l skills-icon"></i>
-          <i class="devicons devicons-visualstudio icon-size-l skills-icon"></i>
 
         </div>
         <div class="col-2">
-
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-  <section id="about" class="section-top">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h2 class="section-top-title">ABOUT ME</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-4 pr-5">
-          <img src="./images/tucca.png" alt="tuccaプロフィール画像" class="about-image">
+        <div class="col-2">
         </div>
-        <div class="col-8">
-          <p>
-            Tucca
-          </p>
-          <p>
-            宮城県仙台市在住・30歳<br>
-            大学院修了後、化学メーカー研究開発・プロセスエンジニアとして６年間勤務。<br>
-          </p>
-          <p>
-            2019年4月〜、漠然とした憧れからプログラミングを始めました。<br>
-            作りたいWebサービスがあり、Web系言語から習得をはじめました。<br>
-          </p>
-          <p>
-            生後3ヶ月の赤ちゃんを育てながら、ゼロから3ヶ月でCRUD機能を網羅したWebアプリを開発。<br>
-            キャッチアップの速さには自信があります。<br>
-            現在は言語仕様やサービス開発、各種フレームワークに加えて、セキュリティ面や保守性の高いコードについても学習しています。
-          </p>
-          <p>
-
-          </p>
-
+        <div class="col-sm-8 skills-wrapper">
+          <i class="devicons devicons-git icon-size-l skills-icon"></i>
+          <i class="devicons devicons-github_badge icon-size-l skills-icon"></i>
+          <i class="devicons devicons-npm icon-size-l skills-icon"></i>
+          <i class="devicons devicons-gulp icon-size-l skills-icon"></i>
+          <i class="devicons devicons-composer icon-size-l skills-icon"></i>
+          <i class="devicons devicons-visualstudio icon-size-l skills-icon"></i>
+        </div>
+        <div class="col-2">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-sm-8">
+          <div class="skills-explain">
+            <p class="skills-explain-default js-skills-explain">
+              2019年4月よりプログラミング学習、同年6月より個人開発を開始。<br>
+              自分が欲しいWebサービスを作るため、Web系言語を中心に勉強しています。<br>
+              現在はフレームワーク、ライブラリを活用した効率の良い開発を目指し、実践中です。
+            </p>
+            <ul class="skills-explain-default js-skills-explain">
+              <li>- HTML5/CSS3によるコーディング</li>
+              <li>- Bootstrap</li>
+              <li>- WordPressテーマの作成</li>
+              <li>- LAMP環境でのPHP・ネイティブjsによるWebアプリ開発</li>
+              <li>- Laravel+Vue.js Webアプリ開発</li>
+            </ul>
+            <!-- <p class="skills-explain-html hide js-skills-explain">HTMLができます</p>
+            <p class="skills-explain-css hide js-skills-explain">CSSができます</p>
+            <p class="skills-explain-js hide js-skills-explain">JavaScriptができます</p>
+            <p class="skills-explain-php hide js-skills-explain">PHPができます</p> -->
+          </div>
+        </div>
+        <div class="col-2">
         </div>
       </div>
     </div>
@@ -271,22 +271,10 @@
       </div>
     </div>
   </section>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <footer class="footer">
-          <p>Copyright © Tucca. All Rights Reserved</p>
-        </footer>
-      </div>
-    </div>
-  </div>
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col">
 
-      </div>
-    </div>
-  </div> -->
+  <footer class="footer">
+    <p>Copyright © Tucca. All Rights Reserved</p>
+  </footer>
   <!-- Optional JavaScript -->
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -307,4 +295,7 @@
     //   // $(this).collapse('show');
     // })
   </script>
+  <script src="./js/app.js"></script>
 </body>
+
+</html>
