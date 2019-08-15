@@ -9705,7 +9705,7 @@ img {
 }
 
 .icon-size-l {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 @media (max-width: 767.98px) {
@@ -9744,6 +9744,7 @@ img {
 
 .skills-wrapper {
   text-align: center;
+  padding: 5px;
 }
 
 .skills-title {
