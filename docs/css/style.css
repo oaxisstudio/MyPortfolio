@@ -9496,6 +9496,10 @@ html, body {
   }
 }
 
+main {
+  margin-top: 100px;
+}
+
 p, a {
   -webkit-font-smoothing: antialiased;
 }
@@ -9518,6 +9522,14 @@ img {
 
 .hide {
   display: none;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.spacer {
+  margin: 10px;
 }
 
 .header {
@@ -9719,6 +9731,11 @@ img {
   border-radius: 2px;
 }
 
+.section-top-subtitle {
+  font-size: 18px;
+  text-align: center;
+}
+
 .icon-size-l {
   font-size: 70px;
 }
@@ -9741,6 +9758,20 @@ img {
   .works-wrapper {
     margin-bottom: 0;
   }
+}
+
+.works-contents {
+  margin: 50px auto 50px;
+}
+
+.works-title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.works-trace__image {
+  width: 100%;
 }
 
 @media (max-width: 767.98px) {
