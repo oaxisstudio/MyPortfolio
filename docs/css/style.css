@@ -9520,12 +9520,23 @@ img {
   display: none;
 }
 
+.header {
+  position: relative;
+}
+
 @media (max-width: 575.98px) {
   .header {
     height: 60px;
     padding-right: 15px;
     padding-left: 15px;
   }
+}
+
+.header > .row {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.85);
+  width: 100vw;
+  z-index: 99;
 }
 
 .nav {
@@ -9648,6 +9659,8 @@ img {
 .hero {
   background: url(../images/hero2.jpg) center no-repeat;
   background-size: cover;
+  background-position: top;
+  height: 100vh;
 }
 
 .hero-title {
@@ -9740,6 +9753,13 @@ img {
 
 .card-text {
   font-size: 0.8rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 180;
+  object-fit: cover;
+  object-position: 100% 0;
 }
 
 .skills-wrapper {
